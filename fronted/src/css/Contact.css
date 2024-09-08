@@ -1,0 +1,45 @@
+.connect-container {
+    max-width: 500px;
+    margin: 0px;
+    padding: 40px;
+    background-color: rgb(156, 188, 227);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-left: 300px
+  }
+  
+  .connect-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .connect-form div {
+    margin-bottom: 5px;
+  }
+  
+  .connect-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .connect-form input,
+  .connect-form textarea {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .connect-form button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .connect-form button:hover {
+    background-color: #0056b3;
+  }
+  
